@@ -11,6 +11,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	user-select: none;
 }
 
 section .row {
@@ -22,6 +23,7 @@ section .row {
 	white-space: nowrap;
 	font-size: 50px;
 	transform: rotate(-30deg);
+	user-select: none;
 }
 
 i {
